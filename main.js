@@ -48,7 +48,6 @@ app.on('ready', function(){
         'y': mainWindowState.y,
         'width': mainWindowState.width,
         'height': mainWindowState.height,
-        // icon: ('C:/Users/vince/AppData/Local/google_web_messages/app-1.0.0/resources/app/Resources/message.ico')
         icon: path.join(homedir, '/AppData/Local/google_web_messages/app-1.0.0/resources/app/Resources/message.ico')
     })
 
