@@ -1,0 +1,36 @@
+{
+  "name": "google_web_messages",
+  "version": "1.0.0",
+  "description": "This is a web app that loads the Google Web Messages to not have to open the browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vothm/Web-App-for-Google-Messages.git"
+  },
+  "keywords": [
+    "Google",
+    "Messages"
+  ],
+  "author": "Vince Maranan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vothm/Web-App-for-Google-Messages/issues"
+  },
+  "homepage": "https://github.com/Vothm/Web-App-for-Google-Messages#readme",
+  "devDependencies": {
+    "electron": "^9.2.1",
+    "electron-packager": "^15.0.0"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "electron-is-dev": "^1.2.0",
+    "electron-settings": "^4.0.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^6.0.0",
+    "electron-window-state": "^5.0.3",
+    "electron-winstaller": "^4.0.1"
+  }
+}
